@@ -3,7 +3,7 @@
 
   body {
     margin: 0;
-    /* -webkit-perspective: 1000; */
+    -webkit-perspective: 1000;
     font-family: 'Poppins', sans-serif;
     background: #575757;
   }
