@@ -165,9 +165,9 @@
     animation: spinner .9s linear infinite;
   }
 
-  @-webkit-@keyframes spinner {
+  /* @-webkit-@keyframes spinner {
     to {transform: rotate(360deg);}
-  }
+  } */
 
   @keyframes spinner {
     to {transform: rotate(360deg);}
@@ -205,7 +205,7 @@
   .menu-burger {
     color: #ffffff;
     padding-top: 11px;
-    -webkit-user-select: none;
+    /* -webkit-user-select: none; */
     cursor: pointer;
     transition: .4s;
     transform-origin: center;

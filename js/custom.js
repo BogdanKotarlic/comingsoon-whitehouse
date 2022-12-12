@@ -4,7 +4,7 @@
 
     // PRE LOADER
     $(window).load(function(){
-      $('.preloader').fadeOut(1500);  
+      $('.preloader').fadeOut(1500); // set duration in brackets    
     });
 
 
@@ -14,5 +14,15 @@
       $('.menu-burger').text() == "☰" ? $('.menu-burger').text('✕') : $('.menu-burger').text('☰');
     });
 
+
+    // ABOUT SLIDER
+    $('body').vegas({
+        slides: [
+            { src: 'images/slide-image01.jpg' },
+            { src: 'images/slide-image02.jpg' }
+        ],
+        timer: false,
+        transition: [ 'zoomOut', ]
+    });
 
 })(jQuery);
