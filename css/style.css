@@ -1,7 +1,6 @@
 
   @import url('https://fonts.googleapis.com/css?family=Poppins:300,400');
-  @import url(//db.onlinewebfonts.com/c/d6ddad3aadf4b9621e9e30481575b0e0?family=CatalinaAnacapaSansW00-Rg);
-  @import url('https://fonts.googleapis.com/css?family=CatalinaAnacapaSansW00-Rg');
+  @import url('https://fonts.googleapis.com/css?family=Oxygen');
 
   body {
     margin: 0;
@@ -17,10 +16,11 @@
   }
 
   .welcome_text {
-    font-family: 'CatalinaAnacapaSansW00-Rg';
+    font-family: 'Oxygen', sans-serif;
     font-size: 40px;
     margin-top: 20px;
     margin-bottom: 40px;
+    font-weight: bold;
   }
 
   .welcome {
@@ -71,7 +71,7 @@
   }
 
   a:hover, a:active, a:focus {
-    color: #000;
+    color: purple;
     outline: none;
   }
 
