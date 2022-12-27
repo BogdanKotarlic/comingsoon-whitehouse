@@ -7,58 +7,79 @@
      <meta name="description" content="">
      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
      <link rel="icon" href="images/logo.png" />
-     <link rel="stylesheet" href="css/bootstrap.min.css">
-     <link rel="stylesheet" href="css/vegas.min.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
      <link rel="stylesheet" href="css/font-awesome.min.css">
      <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-     <section class="preloader">
+    <section class="preloader">
           <div class="spinner">
                <span class="spinner-rotate"></span>
           </div>
      </section>
 
-     <section id="home">
-        <div class="overlay"></div>
+     <!-- Menu -->
+     <label>
+          <input type="checkbox">
+          <span class="menu"> <span class="hamburger"></span> </span>
+          <ul>
+            <li> <a href="/index.html">Početna</a> </li>
+            <li> <a href="/gallery.html">Galerija</a> </li>
+            <li> <a href="/aboutus.html">O nama</a> </li>
+            <li> <a href="/contact.html">Kontakt</a> </li>
+          </ul>
+     </label>
+
+     <!-- Fixed part -->
+     <section id="navigation">
           <div class="container">
-               <div class="row">
+               <div class="row" style="margin-top: 20px;">
+                    <div class="nav-info">
+                         <a href="https://www.instagram.com/whitehouse.sremskikarlovci/" target="_blank" class="fa fa-instagram" style="font-size: 35px;"></a>
+                         <p style="margin-top: 15px;">REZERVACIJE: +381 63 589 310 / +381 65 2268 155</p>
+                    </div>
                     <div class="col-md-12 col-sm-12">
                          <div class="home-info">
                               <img src="images/logo.png" alt="logo" class="logo" />
-                              <a href="https://www.instagram.com/whitehouse.sremskikarlovci/" target="_blank" class="fa fa-instagram fa-lg" style="font-size: 35px;"></a>
-                              <h1>Get ready everyone. <br>Our site is launching soon! <span style="display: inline;">&#x1F680;</span></h1>
-                              <ul class="countdown">
-                                   <li>
-                                        <span class="days">14</span>
-                                        <h3>Days</h3>
-                                   </li>
-                                   <li>
-                                        <span class="hours">10</span>
-                                        <h3>hours</h3>
-                                   </li>
-                                   <li>
-                                        <span class="minutes">15</span>
-                                        <h3>minutes</h3>
-                                   </li>
-                                   <li>
-                                        <span class="seconds">34</span>
-                                        <h3>seconds</h3>
-                                   </li>     
-                                   <p style="margin-top: 30px;">&copy; Copyright - whitehouse Official Website by <a href="http://bogdankotarlic.com" className="bk_consulting" target="_blank">@bogdankotarlic</a></p>
-                              </ul>
-                              
                          </div>
                     </div>
                </div>
           </div>
      </section>
+     <hr style="color: black; width: 90%; margin: auto;">
+
+     <div class="container" style="display: flex; justify-content: center; margin-top: 30px;">
+          <div class="row" style="text-align: center;">
+               <p class="welcome_text">Dobrodošli!</p>
+               <p class="welcome">
+                    U našem objektu očekuje Vas komfor i udobnost. 
+                    Savremeni stil whitehouse objekta sa predivnim pogledam na Dunav, predstavlja jedinstven prostor za obeležavanje Vama važnih događaja i posebnim trenutaka. 
+                    Whitehouse je pažljivo osmišljen za rođendane, devojačke večeri, tim buildinge, venčanja i druge proslave, kao i za odmor.
+                    Želimo da budemo deo Vaših uspomena i najvažnijih događaja.
+               </p>
+          </div>
+          
+     </div>
+
+     <div class="container" style="display: flex; justify-content: center; margin-top: 30px;">
+          <div class="row" style="width: 75%; margin-top: 30px; align-self: center;">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2811.5712869192957!2d19.944443476647358!3d45.19577395130804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475b032c3be98945%3A0xdb91d1be8bf8b97!2swhitehouse!5e0!3m2!1ssr!2srs!4v1672144902495!5m2!1ssr!2srs" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>          </div>
+     </div>
+
+     <hr style="color: black; width: 90%; margin: auto; margin-top: 30px;">
+     
+     <footer>
+          <div className="container-fluid padding" style="margin-top: 20px;">
+               <div className="row">
+                    <div className="col-12" style="text-align: center;">
+                         <p>&copy; Copyright - whitehouse Official Website by <a href="http://bogdankotarlic.com" className="bk_consulting" target={"_blank"}>@bogdankotarlic</a></p>
+                    </div>
+               </div>
+          </div>
+     </footer>
 
      <script src="js/jquery.js"></script>
-     <script src="js/bootstrap.min.js"></script>
-     <script src="js/vegas.min.js"></script>
-     <script src="js/countdown.js"></script>
-     <script src="js/init.js"></script>
      <script src="js/custom.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
