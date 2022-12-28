@@ -57,18 +57,18 @@
      </div>
 
      <div class="container py-4" style=" margin-top: 20px; text-align: center;">
-        <form onsubmit="reset(); return false;" action="https://formspree.io/f/mgebwbaw" method="POST" enctype="text/plain" id="contactForm">
+        <form action="https://formspree.io/f/mgebwbaw" method="POST" id="contactForm">
           <div class="mb-3">
             <label class="form-label" for="name">IME I PREZIME</label>
             <input class="form-control" id="name" type="text" style="text-align: center;" placeholder="Upišite Vaše ime i prezime" required />
           </div>
           <div class="mb-3">
             <label class="form-label" for="emailAddress">EMAIL ADRESA</label>
-            <input class="form-control" id="emailAddress" type="email" style="text-align: center;" placeholder="Upišite Vašu email adresu" required />
+            <input class="form-control" id="emailAddress" type="email" name="email" style="text-align: center;" placeholder="Upišite Vašu email adresu" required />
           </div>
           <div class="mb-3">
             <label class="form-label" for="message">PORUKA</label>
-            <textarea class="form-control" id="message" type="text" style="text-align: center;" placeholder="Vaša poruka" style="height: 10rem;"></textarea>
+            <textarea class="form-control" id="message" name="message" type="text" style="text-align: center;" placeholder="Vaša poruka" style="height: 10rem;"></textarea>
           </div>
           <div>
             <button class="btn btn-dark" type="submit">Pošaljite</button>
